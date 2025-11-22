@@ -80,7 +80,7 @@ permalink: /teach/
 <div style="background:#f0fdf4; padding:2.4rem; border-radius:16px; border-left:6px solid #22c55e; margin:4rem 0 3rem;">
   <h3 style="color:#166534; margin:0 0 1rem;">Student Mentoring & Outcomes</h3>
   <ul style="margin:0; padding-left:1.4rem; line-height:1.9; color:#1f2937; font-size:1.05rem;">
-    <li>Supervised <strong>15+ final-year undergraduate projects</strong> (some led to journal/conference publications)</li>
+    <li>Supervised <strong>25 final-year undergraduate projects/Thesis</strong> (some led to journal/conference publications)</li>
     <li>Multiple students now pursuing MSc abroad or working at Bangladeshi tech firms</li>
   </ul>
 </div>
