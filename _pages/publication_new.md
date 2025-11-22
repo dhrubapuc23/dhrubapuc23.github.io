@@ -72,7 +72,7 @@ permalink: /publication_new/
   </p>
 </div>
 
-<div style="background:white; padding:1.7rem 2rem; border-radius:12px; box-shadow:0 5px 18px rgba(0,0,0,0.06); margin:2rem 0;">
+<div style="background:white; padding:1.8rem 2rem; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.07); margin:2rem 0; border-left:4px solid #10b981;">
   <p style="margin:0; font-size:1.03rem; line-height:1.8;">
     Shuhena Salam Aonty, Kaushik Deb, <strong><u>Dhrubajyoti Das</u></strong>, Kanghyun Jo<br>
     “Human Pose Estimation Using Parallel Architecture”<br>
@@ -81,7 +81,7 @@ permalink: /publication_new/
   </p>
 </div>
 
-<div style="background:white; padding:1.7rem 2rem; border-radius:12px; box-shadow:0 5px 18px rgba(0,0,0,0.06); margin:2rem 0;">
+<div style="background:white; padding:1.8rem 2rem; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.07); margin:2rem 0; border-left:4px solid #10b981;">
   <p style="margin:0; font-size:1.03rem; line-height:1.8;">
     <strong><u>Dhrubajyoti Das</u></strong>, Anik Sen, Syed Md. Minhaz Hossain, Kaushik Deb<br>
     “Trash Image Classification Using Transfer Learning Based Deep Neural Network”<br>
@@ -91,7 +91,7 @@ permalink: /publication_new/
   </p>
 </div>
 
-<div style="background:white; padding:1.7rem 2rem; border-radius:12px; box-shadow:0 5px 18px rgba(0,0,0,0.06); margin:2rem 0 4rem;">
+<div style="background:white; padding:1.8rem 2rem; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.07); margin:2rem 0; border-left:4px solid #10b981;">
   <p style="margin:0; font-size:1.03rem; line-height:1.8;">
     Md. Saiful Islam, <strong><u>Dhrubajyoti Das</u></strong>, Saurav Das, Md. Nahid Ullah<br>
     “Sign Language Recognition for Bangla Alphabets Using Deep Learning Methods”<br>
