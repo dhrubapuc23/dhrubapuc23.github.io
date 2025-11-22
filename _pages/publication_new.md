@@ -2,7 +2,7 @@
 title: "Research & Publications"
 excerpt: "Computer Vision • Deep Learning • Aerobiology"
 author_profile: true
-permalink: /research/
+permalink: /publication_new/
 ---
 
 <!-- ========= CURRENT RESEARCH ========= -->
