@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div style="text-align: justify; line-height: 1.85; font-size: 1.07rem; margin-bottom: 2rem;">
-I am a PhD student at <strong>Queensland University of Technology (QUT)</strong>, Brisbane, Australia. I am a member of the <strong>Allergy Research Group</strong> (School of Biomedical Sciences) and affiliated with the <strong>Centre for Immunology and Infection Control</strong> as well as the <strong>QUT Centre for Robotics</strong>.
+I am a PhD student at <strong>Queensland University of Technology (QUT)</strong>, Brisbane, Australia. I am a member of the <strong>Allergy Research Group</strong> and affiliated with the <strong>Centre for Immunology and Infection Control</strong> as well as the <strong>QUT Centre for Robotics</strong>.
 </div>
 
 <div style="text-align: justify; line-height: 1.85; font-size: 1.07rem; margin-bottom: 2rem;">
