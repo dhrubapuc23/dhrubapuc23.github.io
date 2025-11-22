@@ -14,7 +14,7 @@ permalink: /projects/
 <div style="background:linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%); padding:2.8rem; border-radius:18px; border-left:8px solid #14b8a6; box-shadow:0 10px 30px rgba(20,184,166,0.18); margin:3rem 0;">
   <h2 style="color:#0f766e; margin:0 0 1.2rem; font-size:1.95rem;">Supervised Undergraduate Projects</h2>
   <p style="font-size:1.15rem; line-height:1.9; color:#1e293b; margin:0;">
-    As a former Assistant Professor at Premier University (2018–2025), I supervised <strong>15+ final-year projects</strong> in Computer Science & Engineering. Several led to conference publications, startup ideas, or industry adoption.
+    As a former Assistant Professor at Premier University (2018–2025), I supervised <strong>25 final-year projects</strong> in Computer Science & Engineering. Some selected projects are listed below.
   </p>
 </div>
 
