@@ -66,32 +66,41 @@ permalink: /projects/
 
 <!-- PERSONAL ACADEMIC PROJECTS -->
 <h2 style="color:#7c3aed; font-size:1.9rem; margin:4.5rem 0 1.5rem; border-bottom:4px solid #ddd6fe; padding-bottom:0.7rem; display:inline-block;">
-  Selected Personal Academic Projects
+  Personal Academic Projects
 </h2>
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(340px, 1fr)); gap:1.8rem; margin:3rem 0 4rem;">
 
   <div style="background:white; padding:2rem; border-radius:14px; box-shadow:0 6px 22px rgba(0,0,0,0.07);">
-    <h3 style="margin:0 0 0.8rem; color:#5b21b6;">War71 – Multiplayer Quiz Game (Android)</h3>
-    <p style="margin:0; color:#475569; line-height:1.75;">
-      Real-time multiplayer quiz on Bangladesh Liberation War • Google Play Games API • Final-year project (2018)
-    </p>
+    <h3 style="margin:0 0 0.8rem; color:#5b21b6;">War71 – Real-time Multiplayer Quiz Game</h3>
+    <p style="margin:0; color:#475569; line-height:1.75;">Android • Google Play Games Real-time Multiplayer API • Final-year project (2018)</p>
+  </div>
+
+  <div style="background:white; padding:2rem; border-radius:14px; box-shadow:0 6px 22px rgba(0,0,0,0.07);">
+    <h3 style="margin:0 0 0.8rem; color:#5b21b6;">Diagnostic Center Bill Management System</h3>
+    <p style="margin:0; color:#475569; line-height:1.75;">Full-stack web app • Eliminated paperwork for pathology labs • PHP + MySQL</p>
   </div>
 
   <div style="background:white; padding:2rem; border-radius:14px; box-shadow:0 6px 22px rgba(0,0,0,0.07);">
     <h3 style="margin:0 0 0.8rem; color:#5b21b6;">University Result & Course Management System</h3>
-    <p style="margin:0; color:#475569; line-height:1.75;">
-      Full-stack web app with course allocation, credit assignment, and result processing • PHP + MySQL
-    </p>
+    <p style="margin:0; color:#475569; line-height:1.75;">Automated course allocation, credit assignment, and result processing • Deployed at training institute</p>
   </div>
 
   <div style="background:white; padding:2rem; border-radius:14px; box-shadow:0 6px 22px rgba(0,0,0,0.07);">
     <h3 style="margin:0 0 0.8rem; color:#5b21b6;">Bus Ticket Reservation System</h3>
-    <p style="margin:0; color:#475569; line-height:1.75;">
-      Online booking with PayPal sandbox integration • Software Engineering course project
-    </p>
+    <p style="margin:0; color:#475569; line-height:1.75;">Online booking with PayPal sandbox • Software Engineering course project</p>
   </div>
 
+  <div style="background:white; padding:2rem; border-radius:14px; box-shadow:0 6px 22px rgba(0,0,0,0.07);">
+    <h3 style="margin:0 0 0.8rem; color:#5b21b6;">DictionaryApp – Android REST Client</h3>
+    <p style="margin:0; color:#475569; line-height:1.75;">Demonstrated REST API integration • Mobile app development course</p>
+  </div>
+
+</div>
+
+<div style="text-align:center; padding:2.5rem; background:#f8fafc; border-radius:16px; color:#64748b; font-size:1.05rem; font-style:italic;">
+  Source code and detailed reports available on <a href="https://github.com/dhrubapuc23" style="color:#3b82f6; font-weight:600;">GitHub</a> • 
+  Happy to share demos, documentation, or deployment links upon request.
 </div>
 
 <!-- <div style="text-align:center; padding:2.5rem; background:#f8fafc; border-radius:16px; color:#64748b; font-size:1.05rem; font-style:italic;">
