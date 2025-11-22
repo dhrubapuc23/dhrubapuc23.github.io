@@ -1,46 +1,81 @@
 ---
-title: "Teaching"
-excerpt: ""
+title: "Teaching & Mentoring"
+excerpt: "Undergraduate teaching experience in Bangladesh"
 author_profile: true
 permalink: /teach/
-redirect_from: 
-  - /about.html
 ---
 
-I conducted the following undergraduate courses in **Premier University, Chattogram** since 2018. I have several responsibilities, including conducting theory and lab courses, creating and grading assignments, and conducting final exams.
+<!-- TEACHING PHILOSOPHY / SUMMARY -->
+<div style="background:linear-gradient(135deg, #fefce8 0%, #fffbeb 100%); padding:2.6rem; border-radius:18px; border-left:8px solid #f59e0b; box-shadow:0 10px 30px rgba(251,146,60,0.15); margin:3rem 0;">
+  <h2 style="color:#92400e; margin:0 0 1.2rem; font-size:1.9rem;">Teaching Experience</h2>
+  <p style="font-size:1.13rem; line-height:1.9; color:#1f2937; margin:0;">
+    Between 2017 and 2025, I taught and coordinated over <strong>20 undergraduate courses</strong> (theory + lab) to more than <strong>1,400 students</strong> at Premier University and Cox’s Bazar International University, Bangladesh.<br><br>
+    My courses spanned foundational programming to advanced algorithms and software engineering, with class sizes ranging from 25 to 98 students. I designed curricula, delivered lectures, created hands-on lab exercises, and served as academic advisor to several final-year project groups.
+  </p>
+</div>
 
-| **Session** |                        **Course Tittle**                       | **Number of Student** |   
-|:-----------:|:--------------------------------------------------------------:|:---------------------:|
-| Spring 2023 |                        Data Structures                         |           79          |
-| Spring 2023 |                    Database Management System                  |           70          |
-|  Fall 2022  |                        Data Structures                         |           92          | 
-|  Fall 2022  |                      Software Development                      |           68          | 
-| Spring 2022 |                     Structured Programming                     |           93          | 
-| Spring 2022 |                Structured Programming Laboratory               |           64          |  
-| Spring 2022 | Software Engineering and Information  System Design Laboratory |           64          |  
-|  Fall 2021  |            Algorithm Design and Analysis Laboratory            |           98          |   
-|  Fall 2021  |                   Database Management System                   |           64          |   
-|  Fall 2021  |              Database Management System Laboratory             |           65          |   
-| Spring 2021 |                  Algorithm Design and Analysis                 |           76          |   
-| Spring 2021 |            Algorithm Design and Analysis Laboratory            |           71          |  
-| Spring 2021 |                   Database Management System                   |           69          |   
-| Spring 2021 |              Database Management System Laboratory             |           68          |   
-|  Fall 2020  |                     Structured Programming                     |           48          |   
-|  Fall 2020  |                Structured Programming Laboratory               |           43          |   
-|  Fall 2020  | Software Engineering and Information  System Design Laboratory |           32          |   
-| Spring 2020 |                 Introduction to Computer System                |           29          |   
-| Spring 2020 |      Software Engineering and Information  System Design       |           40          |   
-| Spring 2020 | Software Engineering and Information  System Design Laboratory |           28          |  
+<!-- COURSES TAUGHT – COMPACT & ELEGANT -->
+<h2 style="color:#1d4ed8; font-size:1.9rem; margin:4rem 0 1.5rem; border-bottom:4px solid #93c5fd; padding-bottom:0.7rem; display:inline-block;">
+  Courses Taught
+</h2>
 
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1.8rem; margin:2.5rem 0;">
+  
+  <div style="background:white; padding:1.8rem; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.07); border-left:5px solid #3b82f6;">
+    <h3 style="margin:0 0 0.8rem; color:#1e40af;">Data Structures & Algorithms</h3>
+    <p style="margin:0; color:#475569; line-height:1.7;">
+      Theory + Lab • Multiple offerings (2017–2023)<br>
+      Topics: Arrays, Linked Lists, Trees, Graphs, Sorting, Dynamic Programming
+    </p>
+  </div>
 
+  <div style="background:white; padding:1.8rem; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.07); border-left:5px solid #3b82f6;">
+    <h3 style="margin:0 0 0.8rem; color:#1e40af;">Database Management Systems</h3>
+    <p style="margin:0; color:#475569; line-height:1.7;">
+      Theory + Lab (SQL, ER Models, Normalization) • 2019–2023
+    </p>
+  </div>
 
-I conducted the following undergraduate courses in **Cox's Bazar International University, Cox's Bazar** from 2017 to 2018. I have several responsibilities, including conducting theory and lab courses, creating and grading assignments, and conducting final exams.
+  <div style="background:white; padding:1.8rem; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.07); border-left:5px solid #3b82f6;">
+    <h3 style="margin:0 0 0.8rem; color:#1e40af;">Object-Oriented Programming (Java)</h3>
+    <p style="margin:0; color:#475569; line-height:1.7;">
+      Theory + Lab • Premier University & Cox’s Bazar Intl. University
+    </p>
+  </div>
 
-| **Session** |                        **Course Tittle**                       | **Number of Student** |   
-|:-----------:|:--------------------------------------------------------------:|:---------------------:|
-| Spring 2018 |                     Data Structures                            |           35          | 
-| Spring 2018 | Software Engineering and Information  System Design Laboratory |           36          |
-|  Fall 2017  |                Computer Fundamentals                           |           60          |  
-|  Fall 2017  |                  Object Oriented Programming                   |           40          |   
-|  Fall 2017  |             Object Oriented Programming Laboratory             |           40          |   
-|  Fall 2017  |                     Data Structures                            |           30          |   
+  <div style="background:white; padding:1.8rem; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.07); border-left:5px solid #3b82f6;">
+    <h3 style="margin:0 0 0.8rem; color:#1e40af;">Software Engineering & Development</h3>
+    <p style="margin:0; color:#475569; line-height:1.7;">
+      Laravel-based full-stack projects • 2020–2023
+    </p>
+  </div>
+
+  <div style="background:white; padding:1.8rem; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.07); border-left:5px solid #3b82f6;">
+    <h3 style="margin:0 0 0.8rem; color:#1e40af;">Structured Programming (C)</h3>
+    <p style="margin:0; color:#475569; line-height:1.7;">
+      Introductory programming for first-year students • 2020–2022
+    </p>
+  </div>
+
+  <div style="background:white; padding:1.8rem; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.07); border-left:5px solid #3b82f6;">
+    <h3 style="margin:0 0 0.8rem; color:#1e40af;">Algorithm Design & Analysis</h3>
+    <p style="margin:0; color:#475569; line-height:1.7;">
+      Theory + Lab • 2021–2023
+    </p>
+  </div>
+</div>
+
+<!-- STUDENT FEEDBACK / MENTORING -->
+<div style="background:#f0fdf4; padding:2.4rem; border-radius:16px; border-left:6px solid #22c55e; margin:4rem 0 3rem;">
+  <h3 style="color:#166534; margin:0 0 1rem;">Student Mentoring & Outcomes</h3>
+  <ul style="margin:0; padding-left:1.4rem; line-height:1.9; color:#1f2937; font-size:1.05rem;">
+    <li>Supervised <strong>15+ final-year undergraduate projects</strong> (many led to conference publications)</li>
+    <li>Organised workshops on research writing and “Transforming Ideas into Publications” (2024)</li>
+    <li>Multiple students now pursuing MSc/PhD abroad or working at top Bangladeshi tech firms</li>
+  </ul>
+</div>
+
+<div style="text-align:center; padding:2rem; background:#f8fafc; border-radius:14px; color:#64748b; font-size:1.02rem; font-style:italic;">
+  Currently on research leave from teaching duties while pursuing my PhD at QUT.<br>
+  Happy to share detailed syllabi or student feedback upon request.
+</div>
