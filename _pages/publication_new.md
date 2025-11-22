@@ -5,104 +5,109 @@ author_profile: true
 permalink: /publication_new/
 ---
 
-<!-- ========= CURRENT RESEARCH ========= -->
-<!-- <div style="background:linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); padding:2.5rem; border-radius:16px; border-left:7px solid #10b981; margin:3rem 0; box-shadow:0 8px 30px rgba(16,185,129,0.15);">
-  <h2 style="margin:0 0 1rem; color:#065f46; font-size:1.9rem;">Current Research (PhD)</h2>
-  <p style="font-size:1.12rem; line-height:1.85; margin:0;">
-    <strong>Automated Detection of Grass Flowering Events Using Computer Vision</strong><br>
-    Queensland University of Technology (QUT), Brisbane, Australia | 2024–Present<br>
-    <em>Affiliations:</em> Allergy Research Group • Centre for Immunology and Infection Control • QUT Centre for Robotics<br>
-    <em>Supervisors:</em> Prof. Janet Davies, Prof. Michael Milford, Dr. Andelija Milic<br><br>
-    Developing deep learning models to detect and monitor grass pollen sources in real-world Australian environments — bridging computer vision and aerobiology for improved public health forecasting.
+<!-- CURRENT PHD RESEARCH – HERO BLOCK -->
+<div style="background:linear-gradient(140deg, #f0fdf4 0%, #dcfce7 100%); padding:2.8rem; border-radius:18px; border-left:8px solid #22c55e; box-shadow:0 10px 30px rgba(34,197,94,0.15); margin:3rem 0;">
+  <h2 style="color:#166534; margin:0 0 1rem; font-size:2rem;">Current Research – PhD (QUT)</h2>
+  <p style="font-size:1.15rem; line-height:1.9; color:#1f2937; margin:0;">
+    <strong>Automated Grass Pollen Source Detection Using Computer Vision and Deep Learning</strong><br>
+    <em>Queensland University of Technology, Brisbane, Australia</em> • 2024 – Present<br>
+    <strong>Affiliations:</strong> Allergy Research Group • Centre for Immunology and Infection Control • QUT Centre for Robotics<br>
+    <strong>Supervisors:</strong> Prof. Janet Davies, Prof. Michael Milford, Dr. Andelija Milic<br><br>
+    Developing real-time vision systems to detect flowering events in subtropical and temperate Australian grasses — enabling accurate pollen forecasting and reducing the burden of allergic rhinitis and asthma.
   </p>
-</div> -->
+</div>
 
-<!-- ========= RESEARCH INTERESTS ========= -->
-<h2 style="color:#1e40af; border-bottom:3px solid #3b82f6; padding-bottom:0.6rem; margin:3.5rem 0 2rem; font-size:1.8rem;">
+<!-- RESEARCH INTERESTS -->
+<h2 style="color:#1d4ed8; font-size:1.9rem; margin:4rem 0 1.5rem; border-bottom:4px solid #3b82f6; padding-bottom:0.7rem; display:inline-block;">
   Research Interests
 </h2>
-<p style="font-size:1.07rem; line-height:1.8; color:#374151;">
-My core expertise lies at the intersection of <strong>Computer Vision</strong> and <strong>Deep Learning</strong>. My current PhD work focuses on vision-based environmental monitoring for public health applications. Previously, I worked extensively on object detection, image classification, medical imaging, and hate speech detection in low-resource languages.
-</p>
-<ul style="font-size:1.05rem; line-height:1.8; margin:1.5rem 0; padding-left:1.5rem;">
-  <li>Computer Vision & Multimodal Learning</li>
-  <li>Explainable AI and Model Interpretability</li>
-  <li>Medical Image Analysis</li>
-  <li>Natural Language Processing</li>
-  <li>Environmental & Ecological Applications of AI</li>
-</ul>
+<div style="background:#eff6ff; padding:2rem; border-radius:14px; border-left:5px solid #3b82f6; font-size:1.08rem; line-height:1.9;">
+  <ul style="columns:2; column-gap:2.5rem; margin:0; padding-left:1.2rem;">
+    <li>Computer Vision & Multimodal AI</li>
+    <li>Deep Learning for Environmental Monitoring</li>
+    <li>Medical & Biomedical Image Analysis</li>
+    <li>Explainable AI</li>
+    <li>Natural Language Processing</li>
+    <li>Object Detection & Image Classification</li>
+  </ul>
+</div>
 
-<!-- ========= PUBLICATIONS ========= -->
-<h2 style="color:#7c3aed; border-bottom:3px solid #c4b5fd; padding-bottom:0.6rem; margin:3.5rem 0 2rem; font-size:1.8rem;">
+<!-- PUBLICATIONS -->
+<h2 style="color:#7c3aed; font-size:1.9rem; margin:4.5rem 0 1.5rem; border-bottom:4px solid #c4b5fd; padding-bottom:0.7rem; display:inline-block;">
   Publications
 </h2>
 
 ### Journal Articles
 
-<div style="background:white; padding:1.8rem; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.06); margin-bottom:1.6rem;">
-  <p style="margin:0; font-size:1.03rem; line-height:1.75;">
-    <strong>Asma Binte Rashid, Jannatul Asma, Krittika Barua, and Dhrubajyoti Das</strong><br>
+<div style="background:white; padding:1.8rem 2rem; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.07); margin:2rem 0; border-left:4px solid #10b981;">
+  <p style="margin:0; font-size:1.05rem; line-height:1.85;">
+    <strong>Asma Binte Rashid, Jannatul Asma, Krittika Barua, <u>and Dhrubajyoti Das</u></strong><br>
     “An Enhanced Deep Learning Framework for Pneumonia Detection in Chest X-rays”<br>
-    <em>SN Computer Science</em>, Springer, Vol. 6, Article 472, 2025.<br>
-    <a href="https://doi.org/10.1007/s42979-025-04017-x" style="color:#1d4ed8;">doi.org/10.1007/s42979-025-04017-x</a>
+    <em>SN Computer Science</em>, Springer, vol. 6, article 472, 2025.<br>
+    <a href="https://doi.org/10.1007/s42979-025-04017-x" style="color:#1d4ed8; font-weight:500;">doi.org/10.1007/s42979-025-04017-x</a>
   </p>
 </div>
 
-<div style="background:white; padding:1.8rem; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.06); margin-bottom:1.6rem;">
-  <p style="margin:0; font-size:1.03rem; line-height:1.75;">
-    <strong>Dhrubajyoti Das</strong>, Kaushik Deb, Taufique Sayeed, Pranab Kumar Dhar, and Tetsuya Shimamura<br>
+<div style="background:white; padding:1.8rem 2rem; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.07); margin:2rem 0; border-left:4px solid #10b981;">
+  <p style="margin:0; font-size:1.05rem; line-height:1.85;">
+    <strong><u>Dhrubajyoti Das</u></strong>, Kaushik Deb, Taufique Sayeed, Pranab Kumar Dhar, Tetsuya Shimamura<br>
     “Outdoor Trash Detection in Natural Environment Using a Deep Learning Model”<br>
-    <em>IEEE Access</em>, 2023.<br>
-    <a href="https://doi.org/10.1109/ACCESS.2023.3313166" style="color:#1d4ed8;">doi.org/10.1109/ACCESS.2023.3313166</a>
+    <em>IEEE Access</em>, vol. 11, pp. 103497–103508, 2023.<br>
+    <a href="https://doi.org/10.1109/ACCESS.2023.3313166" style="color:#1d4ed8; font-weight:500;">doi.org/10.1109/ACCESS.2023.3313166</a>
   </p>
 </div>
 
-<div style="background:#fffbeb; padding:1.6rem; border-radius:10px; border-left:5px solid #f59e0b; font-size:1.02rem;">
-  <p style="margin:0; line-height:1.7;">
-    <strong>Anik Majumder, Joya Mallick, Dhrubajyoti Das</strong>, Avishek Chowdhury, and Shranbanti Debi<br>
-    “Advancing Traffic Safety in Dense Urban Settings: A Robust Real-Time Wrong-Way Driving Detection System with Hough Transform and YOLOv5”<br>
+<div style="background:#fffbeb; padding:1.8rem 2rem; border-radius:12px; border-left:5px solid #f59e0b; margin:2rem 0;">
+  <p style="margin:0; font-size:1.05rem; line-height:1.85; color:#92400e;">
+    <strong><u>Anik Majumder, Joya Mallick, Dhrubajyoti Das</u></strong>, Avishek Chowdhury, Shranbanti Debi<br>
+    “Advancing Traffic Safety in Dense Urban Settings: A Robust Real-Time Wrong-Way Driving Detection System...”<br>
     <em>IET Image Processing</em>, Wiley, 2025 — <strong>Under Review</strong>
   </p>
 </div>
 
-### Conference Papers
+### Conference Proceedings
 
-<div style="background:white; padding:1.7rem; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.05); margin:1.8rem 0;">
-  <p style="margin:0; font-size:1.02rem; line-height:1.75;">
-    Md. Jobair, <strong>Dhrubajyoti Das</strong>, Nimmy Binte Islam, and Munna Dhar<br>
+<div style="background:white; padding:1.7rem 2rem; border-radius:12px; box-shadow:0 5px 18px rgba(0,0,0,0.06); margin:2rem 0;">
+  <p style="margin:0; font-size:1.03rem; line-height:1.8;">
+    Md. Jobair, <strong><u>Dhrubajyoti Das</u></strong>, Nimmy Binte Islam, Munna Dhar<br>
     “Bengali Hate Speech Detection with BERT and Deep Learning Models”<br>
-    <em>Proc. 2nd Int. Conf. Big Data, IoT and Machine Learning (BIM 2023)</em>, Springer, 2023.<br>
+    <em>BIM 2023</em>, Springer LNNS, vol. 867, pp. 845–859, 2023.<br>
     <a href="https://doi.org/10.1007/978-981-99-8937-9_56" style="color:#1d4ed8;">doi.org/10.1007/978-981-99-8937-9_56</a>
   </p>
 </div>
 
-<div style="background:white; padding:1.7rem; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.05); margin:1.8rem 0;">
-  <p style="margin:0; font-size:1.02rem; line-height:1.75;">
-    Shuhena Salam Aonty, Kaushik Deb, <strong>Dhrubajyoti Das</strong>, and Kanghyun Jo<br>
+<div style="background:white; padding:1.7rem 2rem; border-radius:12px; box-shadow:0 5px 18px rgba(0,0,0,0.06); margin:2rem 0;">
+  <p style="margin:0; font-size:1.03rem; line-height:1.8;">
+    Shuhena Salam Aonty, Kaushik Deb, <strong><u>Dhrubajyoti Das</u></strong>, Kanghyun Jo<br>
     “Human Pose Estimation Using Parallel Architecture”<br>
-    <em>2023 International Workshop on Intelligent Systems (IWIS)</em>, 2023.<br>
+    <em>IWIS 2023</em>, IEEE, 2023.<br>
     <a href="https://doi.org/10.1109/IWIS58789.2023.10284672" style="color:#1d4ed8;">doi.org/10.1109/IWIS58789.2023.10284672</a>
   </p>
 </div>
 
-<div style="background:white; padding:1.7rem; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.05); margin:1.8rem 0;">
-  <p style="margin:0; font-size:1.02rem; line-height:1.75;">
-    <strong>Dhrubajyoti Das</strong>, Anik Sen, Syed Md. Minhaz Hossain, and Kaushik Deb<br>
+<div style="background:white; padding:1.7rem 2rem; border-radius:12px; box-shadow:0 5px 18px rgba(0,0,0,0.06); margin:2rem 0;">
+  <p style="margin:0; font-size:1.03rem; line-height:1.8;">
+    <strong><u>Dhrubajyoti Das</u></strong>, Anik Sen, Syed Md. Minhaz Hossain, Kaushik Deb<br>
     “Trash Image Classification Using Transfer Learning Based Deep Neural Network”<br>
-    <em>Intelligent Computing & Optimization (ICO 2022)</em>, Springer, 2022.<br>
-    <a href="https://doi.org/10.1007/978-3-031-19958-5_53" style="color:#1d4ed8;">doi.org/10.1007/978-3-031-19958-5_53</a> — <strong>Top 10 Elected Paper Award</strong>
+    <em>ICO 2022</em>, Springer, pp. 561–571, 2022.<br>
+    <a href="https://doi.org/10.1007/978-3-031-19958-5_53" style="color:#1d4ed8;">doi.org/10.1007/978-3-031-19958-5_53</a> 
+    <span style="background:#fef3c7; color:#92400e; padding:0.25rem 0.6rem; border-radius:4px; font-size:0.85rem; margin-left:0.5rem;">Top 10 Elected Paper Award</span>
   </p>
 </div>
 
-<div style="background:white; padding:1.7rem; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.05); margin:1.8rem 0;">
-  <p style="margin:0; font-size:1.02rem; line-height:1.75;">
-    Md. Saiful Islam, <strong>Dhrubajyoti Das</strong>, Saurav Das, and Md. Nahid Ullah<br>
+<div style="background:white; padding:1.7rem 2rem; border-radius:12px; box-shadow:0 5px 18px rgba(0,0,0,0.06); margin:2rem 0 4rem;">
+  <p style="margin:0; font-size:1.03rem; line-height:1.8;">
+    Md. Saiful Islam, <strong><u>Dhrubajyoti Das</u></strong>, Saurav Das, Md. Nahid Ullah<br>
     “Sign Language Recognition for Bangla Alphabets Using Deep Learning Methods”<br>
-    <em>2022 4th Int. Conf. Sustainable Technologies for Industry 4.0 (STI)</em>, IEEE, 2022.<br>
+    <em>STI 2022</em>, IEEE, 2022.<br>
     <a href="https://doi.org/10.1109/STI56238.2022.10103291" style="color:#1d4ed8;">doi.org/10.1109/STI56238.2022.10103291</a>
   </p>
 </div>
 
-<div style="margin-top:4rem; text-align:center; color:#6b7280; font-size:0.98rem; font-style:italic;">
-  Full list also available on <a href="https://scholar.google.com/citations?user=YOUR_ID" style="color:#3b82f6;">Google Scholar</a> • Updated November 2025
+<div style="text-align:center; padding:2rem; background:#f8fafc; border-radius:14px; color:#475569; font-size:1.05rem;">
+  <p style="margin:0;">
+    Full publication list also available on 
+    <a href="https://scholar.google.com/citations?user=YOUR_ID_HERE" style="color:#3b82f6; font-weight:600;">Google Scholar</a> 
+    • Last updated: November 2025
+  </p>
 </div>
