@@ -9,10 +9,6 @@ permalink: /publication_new/
 <div style="background:linear-gradient(140deg, #f0fdf4 0%, #dcfce7 100%); padding:2.8rem; border-radius:18px; border-left:8px solid #22c55e; box-shadow:0 10px 30px rgba(34,197,94,0.15); margin:3rem 0;">
   <h2 style="color:#166534; margin:0 0 1rem; font-size:2rem;">Current Research – PhD (QUT)</h2>
   <p style="font-size:1.15rem; line-height:1.9; color:#1f2937; margin:0;">
-    <strong>Automated Grass Pollen Source Detection Using Computer Vision and Deep Learning</strong><br>
-    <em>Queensland University of Technology, Brisbane, Australia</em> • 2024 – Present<br>
-    <strong>Affiliations:</strong> Allergy Research Group • Centre for Immunology and Infection Control • QUT Centre for Robotics<br>
-    <strong>Supervisors:</strong> Prof. Janet Davies, Prof. Michael Milford, Dr. Andelija Milic<br><br>
     Developing real-time vision systems to detect flowering events in subtropical and temperate Australian grasses — enabling accurate pollen forecasting and reducing the burden of allergic rhinitis and asthma.
   </p>
 </div>
@@ -28,7 +24,7 @@ permalink: /publication_new/
     <li>Medical & Biomedical Image Analysis</li>
     <li>Explainable AI</li>
     <li>Natural Language Processing</li>
-    <li>Object Detection & Image Classification</li>
+    <li>Large Language Models</li>
   </ul>
 </div>
 
@@ -59,7 +55,7 @@ permalink: /publication_new/
 
 <div style="background:#fffbeb; padding:1.8rem 2rem; border-radius:12px; border-left:5px solid #f59e0b; margin:2rem 0;">
   <p style="margin:0; font-size:1.05rem; line-height:1.85; color:#92400e;">
-    <strong><u>Anik Majumder, Joya Mallick, Dhrubajyoti Das</u></strong>, Avishek Chowdhury, Shranbanti Debi<br>
+    Anik Majumder, Joya Mallick, <strong><u>Dhrubajyoti Das</u></strong>, Avishek Chowdhury, Shranbanti Debi<br>
     “Advancing Traffic Safety in Dense Urban Settings: A Robust Real-Time Wrong-Way Driving Detection System...”<br>
     <em>IET Image Processing</em>, Wiley, 2025 — <strong>Under Review</strong>
   </p>
@@ -107,7 +103,7 @@ permalink: /publication_new/
 <div style="text-align:center; padding:2rem; background:#f8fafc; border-radius:14px; color:#475569; font-size:1.05rem;">
   <p style="margin:0;">
     Full publication list also available on 
-    <a href="https://scholar.google.com/citations?user=YOUR_ID_HERE" style="color:#3b82f6; font-weight:600;">Google Scholar</a> 
+    <a href="https://scholar.google.com/citations?user=TgJafOwAAAAJ&hl=en" style="color:#3b82f6; font-weight:600;">Google Scholar</a> 
     • Last updated: November 2025
   </p>
 </div>
