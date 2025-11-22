@@ -5,6 +5,17 @@ author_profile: true
 permalink: /education/
 ---
 
+<style>
+  p, .post-content div, .page__content div {
+    text-align: justify !important;
+    hyphens: auto;
+    line-height: 1.8;
+    font-size: 1.05rem;
+  }
+  /* Optional: improve spacing after headings */
+  h2, h3 { margin-top: 2.5rem; margin-bottom: 1rem; }
+</style>
+
 <!-- ========= CURRENT PHD (MOST IMPORTANT) ========= -->
 <div style="background:linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); padding:2.4rem; border-radius:16px; border-left:7px solid #10b981; margin:2.5rem 0; box-shadow:0 8px 25px rgba(16,185,129,0.15);">
   <h2 style="margin:0 0 1rem 0; color:#065f46; font-size:1.9rem;">Current</h2>
