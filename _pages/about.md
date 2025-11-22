@@ -7,6 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+  p, .post-content div, .page__content div {
+    text-align: justify !important;
+    hyphens: auto;
+    line-height: 1.8;
+    font-size: 1.05rem;
+  }
+  /* Optional: improve spacing after headings */
+  h2, h3 { margin-top: 2.5rem; margin-bottom: 1rem; }
+</style>
 
 <div style="text-align: justify; line-height: 1.85; font-size: 1.07rem; margin-bottom: 2rem;">
 I am a first year PhD student at <strong>Queensland University of Technology (QUT)</strong>, Brisbane, Australia. I am a member of the <strong>Allergy Research Group</strong> and affiliated with the <strong>Centre for Immunology and Infection Control</strong> as well as the <strong>QUT Centre for Robotics</strong>.
