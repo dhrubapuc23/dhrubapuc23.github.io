@@ -5,6 +5,17 @@ author_profile: true
 permalink: /publication_new/
 ---
 
+<style>
+  p, .post-content div, .page__content div {
+    text-align: justify !important;
+    hyphens: auto;
+    line-height: 1.8;
+    font-size: 1.05rem;
+  }
+  /* Optional: improve spacing after headings */
+  h2, h3 { margin-top: 2.5rem; margin-bottom: 1rem; }
+</style>
+
 <!-- CURRENT PHD RESEARCH – HERO BLOCK -->
 <div style="background:linear-gradient(140deg, #f0fdf4 0%, #dcfce7 100%); padding:2.8rem; border-radius:18px; border-left:8px solid #22c55e; box-shadow:0 10px 30px rgba(34,197,94,0.15); margin:3rem 0;">
   <h2 style="color:#166534; margin:0 0 1rem; font-size:2rem;">Current Research – PhD (QUT)</h2>
