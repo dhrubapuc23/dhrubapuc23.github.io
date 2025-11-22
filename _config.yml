@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Dhrubajyoti Das"
   avatar           : "dhruba.jpg"
-  bio              : "PhD Student"
-  location         : "Brisbane, Queensland, Australia"
-  employer         : "Queensland University of Technology (QUT)"
+  #bio              : "PhD Student"
+  #location         : "Brisbane, Queensland, Australia"
+  #employer         : "Queensland University of Technology (QUT)"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=TgJafOwAAAAJ&hl=en"
   email            : "dhrubajyoti1212@gmail.com"
