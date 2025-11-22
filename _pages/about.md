@@ -33,29 +33,29 @@ I completed my <strong>M.Sc. in Computer Science and Engineering</strong> from C
 
   <ul style="list-style:none; padding-left:0; margin:0.8rem 0;">
     
-  <li style="margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
+    <li style="margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
       <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
       <strong>Nov 2025</strong> — Presented preliminary results on real-time grass-pollen detection at the QUT Centre for Robotics seminar series.
     </li>
     
-  <li style="margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
+    <li style="margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
       <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
       <strong>Oct 2025</strong> — Successfully deployed our first automated flowering-event camera trap network in Brisbane for the 2025–26 pollen season.
     </li>
     
-  <li style="    margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
+    <li style="    margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
       <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
       <strong>Jul 2025</strong> — Passed PhD Confirmation of Candidature milestone at QUT.
     </li>
     
-  <li style="margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
+    <li style="margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
       <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
       <strong>Mar 2025</strong> — Awarded QUT Higher Degree Research Tuition Fee Sponsorship + Living Stipend Scholarship.
     </li>
     
   <li style="margin-bottom:0; padding-left:2.2rem; position:relative;">
       <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
-      <strong>Oct 2024</strong> — Commenced PhD at Queensland University of Technology, joining the Allergy Research Group and QUT Centre for Robotics.
+      <strong>Oct 2024</strong> — Commenced PhD at Queensland University of Technology, joining the Allergy Research Group.
     </li>
     
     <!-- Older entries go below this line -->
