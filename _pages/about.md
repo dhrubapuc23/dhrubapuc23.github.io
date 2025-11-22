@@ -25,6 +25,47 @@ Prior to joining QUT, I served as an <strong>Assistant Professor</strong> in the
 I completed my <strong>M.Sc. in Computer Science and Engineering</strong> from Chittagong University of Engineering and Technology (CUET) under the supervision of <a href="https://www.cuet.ac.bd/members/498" style="color:#c41e3a; font-weight:600;">Dr. Kaushik Deb</a>. I earned my B.Sc. in Computer Science and Engineering from Premier University, Chattogram.
 </div> -->
 
+<!-- ==================== NEWS & UPDATES ==================== -->
+<div style="background:#f9fafb; padding: 2rem; border-radius: 14px; border-left: 6px solid #10b981; box-shadow: 0 6px 16px rgba(0,0,0,0.05); margin: 3rem 0; font-size: 1.03rem;">
+  <h2 style="margin-top:0; color:#065f46; border-bottom:none; font-size:1.7rem;">
+    News & Research Updates
+  </h2>
+
+  <ul style="list-style:none; padding-left:0; margin:0.8rem 0;">
+    
+  <li style="margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
+      <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
+      <strong>Nov 2025</strong> — Presented preliminary results on real-time grass-pollen detection at the QUT Centre for Robotics seminar series.
+    </li>
+    
+  <li style="margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
+      <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
+      <strong>Oct 2025</strong> — Successfully deployed our first automated flowering-event camera trap network in Brisbane for the 2025–26 pollen season.
+    </li>
+    
+  <li style="    margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
+      <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
+      <strong>Jul 2025</strong> — Passed PhD Confirmation of Candidature milestone at QUT.
+    </li>
+    
+  <li style="margin-bottom:1.4rem; padding-left:2.2rem; position:relative;">
+      <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
+      <strong>Mar 2025</strong> — Awarded QUT Higher Degree Research Tuition Fee Sponsorship + Living Stipend Scholarship.
+    </li>
+    
+  <li style="margin-bottom:0; padding-left:2.2rem; position:relative;">
+      <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
+      <strong>Oct 2024</strong> — Commenced PhD at Queensland University of Technology, joining the Allergy Research Group and QUT Centre for Robotics.
+    </li>
+    
+    <!-- Older entries go below this line -->
+  </ul>
+
+  <div style="margin-top:1.5rem; text-align:right; font-size:0.93rem; color:#6b7280;">
+    <em>More updates coming soon…</em>
+  </div>
+</div>
+
 <div style="background:#f8f9fa; padding: 1.8rem; border-radius: 12px; border-left: 5px solid #3b82f6; font-size: 1.05rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
   <p style="margin:0 0 0.8rem 0;">
     <strong>Contact:</strong><br>
