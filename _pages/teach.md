@@ -33,7 +33,7 @@ permalink: /teach/
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1.8rem; margin:2.5rem 0;">
   
   <div style="background:white; padding:1.8rem; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.07); border-left:5px solid #3b82f6;">
-    <h3 style="margin:0 0 0.8rem; color:#1e40af;">Data Structures & Algorithms</h3>
+    <h3 style="margin:0 0 0.8rem; color:#1e40af;">Data Structures</h3>
     <p style="margin:0; color:#475569; line-height:1.7;">
       Theory + Lab • Multiple offerings (2017–2023)<br>
       Topics: Arrays, Linked Lists, Trees, Graphs, Sorting, Dynamic Programming
