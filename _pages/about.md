@@ -9,12 +9,12 @@ redirect_from:
 ---
 
 <div style="text-align: justify; line-height: 1.85; font-size: 1.07rem; margin-bottom: 2rem;">
-I am a <strong>PhD student</strong> at the <strong>Australian Research Council Training Centre for Information Resilience (CIRES)</strong> and the <strong>QUT Centre for Robotics</strong>, <strong>Queensland University of Technology (QUT)</strong>, Brisbane, Australia.
+I am a PhD student at <strong>Queensland University of Technology (QUT)</strong>, Brisbane, Australia. I am a member of the <strong>Allergy Research Group</strong> (School of Biomedical Sciences) and affiliated with the <strong>Centre for Immunology and Infection Control</strong> as well as the <strong>QUT Centre for Robotics</strong>.
 </div>
 
 <div style="text-align: justify; line-height: 1.85; font-size: 1.07rem; margin-bottom: 2rem;">
 My doctoral research focuses on <strong>identifying and monitoring flowering events in subtropical and temperate Australian grasses using computer vision and deep learning</strong>. This work aims to improve pollen forecasting, advance aerobiology, and support public health outcomes for allergic rhinitis and asthma sufferers.  
-I am very fortunate to be supervised by <strong>Professor Janet Davies</strong> (School of Biomedical Sciences), <strong>Professor Michael Milford</strong> (QUT Centre for Robotics), and <strong>Dr. Andelija Milic</strong> (School of Biomedical Sciences).
+I am very fortunate to be supervised by <strong>Professor Janet Davies</strong> (School of Biomedical Sciences), <strong>Professor Michael Milford</strong> (School of Electrical Engineering and Robotics), and <strong>Dr. Andelija Milic</strong> (School of Biomedical Sciences).
 </div>
 
 <div style="text-align: justify; line-height: 1.85; font-size: 1.07rem; margin-bottom: 2.5rem;">
