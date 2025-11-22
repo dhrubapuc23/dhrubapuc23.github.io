@@ -28,7 +28,7 @@ My core expertise lies at the intersection of <strong>Computer Vision</strong> a
   <li>Computer Vision & Multimodal Learning</li>
   <li>Explainable AI and Model Interpretability</li>
   <li>Medical Image Analysis</li>
-  <li>Natural Language Processing (especially Bengali)</li>
+  <li>Natural Language Processing</li>
   <li>Environmental & Ecological Applications of AI</li>
 </ul>
 
