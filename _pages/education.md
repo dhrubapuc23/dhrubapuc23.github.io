@@ -7,9 +7,9 @@ permalink: /education/
 
 <!-- ========= CURRENT PHD (MOST IMPORTANT) ========= -->
 <div style="background:linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); padding:2.4rem; border-radius:16px; border-left:7px solid #10b981; margin:2.5rem 0; box-shadow:0 8px 25px rgba(16,185,129,0.15);">
-  <h2 style="margin:0 0 1rem 0; color:#065f46; font-size:1.9rem;">PhD Candidate (Current)</h2>
+  <h2 style="margin:0 0 1rem 0; color:#065f46; font-size:1.9rem;">Current</h2>
   <p style="margin:0; font-size:1.15rem; line-height:1.8;">
-    <strong>Doctor of Philosophy in Computer Science</strong><br>
+    <strong>Doctor of Philosophy in Computer Vision</strong><br>
     <strong>Queensland University of Technology (QUT)</strong>, Brisbane, Australia<br>
     <em>Oct 2024 – Present</em><br><br>
     <strong>Affiliations:</strong> Allergy Research Group • Centre for Immunology and Infection Control • QUT Centre for Robotics<br>
@@ -26,14 +26,14 @@ permalink: /education/
   <p style="margin:0.3rem 0 1rem;"><strong>Chittagong University of Engineering and Technology (CUET)</strong>, Bangladesh<br>
   <em>Graduated: November 2023</em></p>
   <strong>Thesis:</strong> Trash Classification Using Deep Neural Networks<br>
-  <strong>Supervisor:</strong> <a href="https://www.cuet.ac.bd/members/498" style="color:#1d4ed8;">Dr. Kaushik Deb</a>
+  <strong>Supervisor:</strong> <a href="https://scholar.google.com/citations?user=du_bCPIAAAAJ&hl=en" style="color:#1d4ed8;">Dr. Kaushik Deb</a>
 </div>
 
 <div style="background:white; padding:2rem; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.06);">
   <h3 style="color:#1e40af; margin-top:0;">B.Sc. in Computer Science and Engineering</h3>
   <p style="margin:0.3rem 0 1rem;"><strong>Premier University</strong>, Chattogram, Bangladesh<br>
   <em>Graduated: May 2018</em></p>
-  CGPA: <strong>3.71 / 4.00</strong> | Class Position: <strong>3<sup>rd</sup> out of 70</strong>
+  <!-- CGPA: <strong>3.71 / 4.00</strong> | Class Position: <strong>3<sup>rd</sup> out of 70</strong> -->
 </div>
 
 <!-- ========= TEACHING & ACADEMIC EXPERIENCE ========= -->
