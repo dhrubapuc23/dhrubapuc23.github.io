@@ -23,7 +23,7 @@ permalink: /projects/
   <div style="background:white; padding:2rem; border-radius:14px; box-shadow:0 6px 22px rgba(0,0,0,0.08); border-left:5px solid #06b6d4;">
     <h3 style="margin:0 0 0.8rem; color:#0c4a6e;">Bangla Sign Language Recognition</h3>
     <p style="margin:0; color:#475569; line-height:1.75;">
-      Deep CNN + MediaPipe for real-time recognition of Bangla alphabets in sign language • Published at STI 2022 (IEEE)
+      Deep CNN for real-time recognition of Bangla alphabets in sign language • Published at STI 2022 (IEEE)
     </p>
   </div>
 
@@ -37,14 +37,14 @@ permalink: /projects/
   <div style="background:white; padding:2rem; border-radius:14px; box-shadow:0 6px 22px rgba(0,0,0,0.08); border-left:5px solid #06b6d4;">
     <h3 style="margin:0 0 0.8rem; color:#0c4a6e;">GrayScale: Peer-to-Peer Banking App</h3>
     <p style="margin:0; color:#475569; line-height:1.75;">
-      Mobile banking platform tailored for Bangladesh (agent banking model) • Won departmental project showcase
+      Mobile banking platform tailored for Bangladesh (agent banking model)
     </p>
   </div>
 
   <div style="background:white; padding:2rem; border-radius:14px; box-shadow:0 6px 22px rgba(0,0,0,0.08); border-left:5px solid #06b6d4;">
     <h3 style="margin:0 0 0.8rem; color:#0c4a6e;">Blood2Support: Blood Donation Platform</h3>
     <p style="margin:0; color:#475569; line-height:1.75;">
-      Location-aware blood donor matching system • Deployed and used in Chattogram region
+      Location-aware blood donor matching system 
     </p>
   </div>
 
@@ -58,7 +58,7 @@ permalink: /projects/
   <div style="background:white; padding:2rem; border-radius:14px; box-shadow:0 6px 22px rgba(0,0,0,0.08); border-left:5px solid #06b6d4;">
     <h3 style="margin:0 0 0.8rem; color:#0c4a6e;">Telecare: Remote Health Consultation App</h3>
     <p style="margin:0; color:#475569; line-height:1.75;">
-      Video consultation + prescription management platform • Built during COVID-19
+      audio consultation + prescription management platform • Built during COVID-19
     </p>
   </div>
 
