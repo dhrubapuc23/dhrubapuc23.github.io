@@ -6,7 +6,7 @@ permalink: /publication_new/
 ---
 
 <!-- ========= CURRENT RESEARCH ========= -->
-<div style="background:linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); padding:2.5rem; border-radius:16px; border-left:7px solid #10b981; margin:3rem 0; box-shadow:0 8px 30px rgba(16,185,129,0.15);">
+<!-- <div style="background:linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); padding:2.5rem; border-radius:16px; border-left:7px solid #10b981; margin:3rem 0; box-shadow:0 8px 30px rgba(16,185,129,0.15);">
   <h2 style="margin:0 0 1rem; color:#065f46; font-size:1.9rem;">Current Research (PhD)</h2>
   <p style="font-size:1.12rem; line-height:1.85; margin:0;">
     <strong>Automated Detection of Grass Flowering Events Using Computer Vision</strong><br>
@@ -15,7 +15,7 @@ permalink: /publication_new/
     <em>Supervisors:</em> Prof. Janet Davies, Prof. Michael Milford, Dr. Andelija Milic<br><br>
     Developing deep learning models to detect and monitor grass pollen sources in real-world Australian environments — bridging computer vision and aerobiology for improved public health forecasting.
   </p>
-</div>
+</div> -->
 
 <!-- ========= RESEARCH INTERESTS ========= -->
 <h2 style="color:#1e40af; border-bottom:3px solid #3b82f6; padding-bottom:0.6rem; margin:3.5rem 0 2rem; font-size:1.8rem;">
