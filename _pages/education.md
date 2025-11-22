@@ -8,12 +8,12 @@ permalink: /education/
 <div style="background:linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); padding:2.2rem; border-radius:16px; border-left:6px solid #0ea5e9; margin-bottom:2.5rem; box-shadow:0 6px 20px rgba(0,0,0,0.06);">
   <h2 style="margin-top:0; color:#0c4a6e; font-size:1.8rem;">Current Position</h2>
   <p style="margin:0.5rem 0 0; font-size:1.1rem; line-height:1.7;">
-    <strong>PhD Candidate in Computer Science</strong><br>
+    <strong>PhD Student in Computer Vision</strong><br>
     <strong>Queensland University of Technology (QUT), Brisbane, Australia</strong><br>
-    <em>2024 – Present</em><br>
-    Member of the <strong>Allergy Research Group</strong> & <strong>QUT Centre for Robotics</strong><br>
+    <em>October 2024 – Present</em><br>
+    Member of the <strong>Allergy Research Group</strong>
     Supervisors: Prof. Janet Davies, Prof. Michael Milford, Dr. Andelija Milic<br>
-    Research: Computer vision for automated detection of grass flowering events in Australia
+    Research Topic: Computer vision for automated detection of grass flowering events in Australia
   </p>
 </div>
 
@@ -23,12 +23,11 @@ permalink: /education/
 Chittagong University of Engineering and Technology (CUET), Bangladesh  
 *Graduated: November 2023*  
 Thesis: “Trash Classification Using Deep Neural Networks”  
-Supervisor: <a href="https://www.cuet.ac.bd/members/498" style="color:#1d4ed8; font-weight:600;">Dr. Kaushik Deb</a>
+Supervisor: <a href="https://scholar.google.com/citations?user=du_bCPIAAAAJ&hl=en" style="color:#1d4ed8; font-weight:600;">Dr. Kaushik Deb</a>
 
 **Bachelor of Science in Computer Science and Engineering**  
 Premier University, Chattogram, Bangladesh  
 *Graduated: May 2018*  
-CGPA: **3.71 / 4.00** | Class Position: **3<sup>rd</sup> out of 70**
 
 ### Academic & Teaching Experience
 
