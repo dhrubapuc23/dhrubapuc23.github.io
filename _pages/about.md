@@ -55,7 +55,7 @@ I completed my <strong>M.Sc. in Computer Science and Engineering</strong> from C
     
   <li style="margin-bottom:0; padding-left:2.2rem; position:relative;">
       <span style="position:absolute; left:0; color:#10b981; font-weight:bold;">▸</span>
-      <strong>Oct 2024</strong> — Commenced PhD at Queensland University of Technology, joining the Allergy Research Group.
+      <strong>Oct 2025</strong> — Commenced PhD at Queensland University of Technology, joining the Allergy Research Group.
     </li>
     
     <!-- Older entries go below this line -->
