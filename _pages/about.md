@@ -65,7 +65,7 @@ I completed my <strong>M.Sc. in Computer Science and Engineering</strong> from C
   
   <p style="margin:1.2rem 0 0 0;">
     <strong>Latest CV (November 2025):</strong><br>
-    <a href="https://drive.google.com/file/d/1pM5W8vxchQd6512qzBaNZh1o637kPQGo/view?usp=sharing" style="color:#c41e3a; font-weight:600; text-decoration:none;">
+    <a href="https://drive.google.com/file/d/16-ljwzCIxmD0AhrVS_FQ_7h1xU9lhrqn/view?usp=drive_link" style="color:#c41e3a; font-weight:600; text-decoration:none;">
       📄 Download CV (PDF)
     </a>
   </p>
