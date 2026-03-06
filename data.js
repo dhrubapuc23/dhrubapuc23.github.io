@@ -21,8 +21,8 @@ const DATA = {
 
   /* ── PERSONAL ─────────────────────────────────────────────────── */
   name:        "Dhrubajyoti Das",
-  degree:      "PhD Candidate",
-  title:       "Computer Vision & Deep Learning",
+  degree:      "PhD Researcher",
+  title:       "Computer Vision",
   affiliation: "Queensland University of Technology",
   location:    "Brisbane, QLD, Australia",
   photo:       "images/dhruba.jpg",   // ← replace filename here if you update your photo
@@ -69,13 +69,10 @@ const DATA = {
   research_interests: [
     "Computer Vision",
     "Deep Learning",
-    "Object Detection & Tracking",
     "Explainable AI (XAI)",
-    "Medical & Biomedical Image Analysis",
+    "Biomedical Image Analysis",
     "Natural Language Processing",
-    "Large Language Models",
-    "Environmental & Aerial Monitoring",
-    "Aerobiology & Pollen Forecasting",
+    "Vision and Language Models",
   ],
 
   /* ════════════════════════════════════════════════════════════════
@@ -211,7 +208,7 @@ const DATA = {
       degree: "M.Sc. in Computer Science and Engineering",
       inst:   "Chittagong University of Engineering & Technology (CUET)",
       loc:    "Chattogram, Bangladesh",
-      period: "2021 – 2023",
+      period: "2018 – 2023 (part-time)",
       note:   "GPA 3.17 / 4.00 · Thesis: Trash Classification Using Deep Neural Networks · Supervisor: Dr. Kaushik Deb",
     },
     {
@@ -276,7 +273,7 @@ const DATA = {
       loc:    "Cox's Bazar, Bangladesh",
       period: "Oct 2017 – Sep 2018",
       bullets: [
-        "Assisted instruction in OOP in Java and Data Structures for undergraduate classes.",
+        "Taught OOP in Java and Data Structures for undergraduate classes.",
       ],
     },
   ],
@@ -298,11 +295,11 @@ const DATA = {
   ════════════════════════════════════════════════════════════════ */
   skills: [
     { cat: "Programming Languages",  items: ["Python", "C", "C++", "Java"] },
-    { cat: "ML / Deep Learning",     items: ["PyTorch", "TensorFlow", "Keras", "scikit-learn", "OpenCV", "YOLO (v5/v8)", "DenseNet", "ResNet", "VGG", "ViT", "Transfer Learning"] },
+    { cat: "ML / Deep Learning",     items: ["PyTorch", "TensorFlow", "Keras", "scikit-learn", "OpenCV"] },
     { cat: "NLP & LLMs",             items: ["Transformers (HuggingFace)", "BERT", "NLTK", "spaCy", "GPT APIs"] },
     { cat: "Data & Analysis",        items: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Jupyter"] },
     { cat: "Web & Database",         items: ["PHP", "Laravel", "HTML5", "CSS3", "Bootstrap", "jQuery", "SQL", "MySQL"] },
-    { cat: "Tools & Platforms",      items: ["Git", "GitHub", "Linux", "Google Colab", "VS Code", "LaTeX", "Overleaf"] },
+    { cat: "Tools & Platforms",      items: ["Git", "GitHub", "Linux", "LaTeX"] },
   ],
 
   /* ════════════════════════════════════════════════════════════════
@@ -343,7 +340,7 @@ const DATA = {
       tag: "PhD Research",
       title: "Grass Flowering Event Detection for Pollen Forecasting",
       desc: "End-to-end CV pipeline for real-time detection and monitoring of grass flowering in subtropical and temperate Australia.",
-      tech: ["PyTorch", "YOLOv8", "OpenCV"],
+      tech: ["PyTorch", "OpenCV"],
       status: "In Progress",
     },
     {
