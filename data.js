@@ -215,7 +215,7 @@ const DATA = {
       degree: "B.Sc. in Computer Science and Engineering",
       inst:   "Premier University (PU)",
       loc:    "Chattogram, Bangladesh",
-      period: "2014 – 2018",
+      period: "2013 – 2018",
       note:   "CGPA 3.71 / 4.00 · Merit Scholarship 2013–2015 · Perfect 4.0 GPA in 5th semester",
     },
   ],
