@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>PhD Researcher — QUT</title>
+<meta name="description" content="PhD Researcher in Computer Vision at Queensland University of Technology"/>
+<!-- data.js is loaded first — it defines the DATA object used by this file -->
+<script src="data.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+/* ═══════════════════════════════════════
+   RESET & VARIABLES
+═══════════════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0B1929; --navy-mid:#112236; --navy-lt:#1A3352;
+  --bg:#F8F6F2; --surface:#EFECE6; --white:#FFF;
+  --ink:#141210; --mid:#3A3835; --muted:#7A776F; --border:#DED9D0;
+  --gold:#C07B28; --blue:#1B6CA8;
+  --gold-dim:rgba(192,123,40,.12); --blue-dim:rgba(27,108,168,.09);
+  --green:#0D6E4E;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'DM Sans',system-ui,sans-serif;
+  --sb:272px;
+}
+html{scroll-behavior:smooth;font-size:15px}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);
+  line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* ═══════════════════════════════════════
+   LAYOUT
+═══════════════════════════════════════ */
+.wrap{display:flex;min-height:100vh}
+
+/* ═══════════════════════════════════════
+   SIDEBAR
+═══════════════════════════════════════ */
+#sb{
+  width:var(--sb);flex-shrink:0;background:var(--navy);
+  position:sticky;top:0;height:100vh;overflow-y:auto;
+  display:flex;flex-direction:column;padding:2.2rem 1.6rem 1.8rem;
+  scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.1) transparent
+}
+#sb::-webkit-scrollbar{width:3px}
+#sb::-webkit-scrollbar-thumb{background:rgba(255,255,255,.12);border-radius:2px}
+
+.sb-photo{width:94px;height:94px;border-radius:50%;margin:0 auto 1.1rem;
+  overflow:hidden;border:2.5px solid rgba(255,255,255,.15);
+  background:var(--navy-lt);flex-shrink:0}
+.sb-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.sb-initials{width:100%;height:100%;display:flex;align-items:center;
+  justify-content:center;font-family:var(--serif);font-size:2rem;
+  color:rgba(255,255,255,.3)}
+
+.sb-name{font-family:var(--serif);font-size:1.06rem;font-weight:600;
+  color:#fff;text-align:center;line-height:1.25;margin-bottom:.2rem}
+.sb-role{font-size:.7rem;text-align:center;color:rgba(255,255,255,.4);
+  letter-spacing:.07em;text-transform:uppercase;margin-bottom:.1rem}
+.sb-inst{font-size:.73rem;text-align:center;color:rgba(255,255,255,.28);margin-bottom:1.5rem}
+
+.sb-div{height:1px;background:rgba(255,255,255,.08);margin:.3rem 0 .9rem}
+
+.sb-nav{list-style:none;margin-bottom:1.3rem}
+.sb-nav li+li{margin-top:1px}
+.sb-nav a{display:flex;align-items:center;gap:.55rem;padding:.42rem .65rem;
+  border-radius:3px;font-size:.8rem;color:rgba(255,255,255,.48);
+  letter-spacing:.015em;transition:background .15s,color .15s;cursor:pointer}
+.sb-nav a:hover,.sb-nav a.on{background:rgba(255,255,255,.08);color:#fff;text-decoration:none}
+.sb-nav svg{width:12px;height:12px;fill:currentColor;flex-shrink:0;opacity:.7}
+
+.sb-links{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;margin-bottom:1.3rem}
+.sb-lnk{display:inline-flex;align-items:center;gap:.3rem;
+  padding:.27rem .52rem;border:1px solid rgba(255,255,255,.11);border-radius:3px;
+  font-size:.68rem;font-weight:500;color:rgba(255,255,255,.4);transition:all .15s}
+.sb-lnk svg{width:9px;height:9px;fill:currentColor}
+.sb-lnk:hover{color:#fff;border-color:rgba(255,255,255,.35);text-decoration:none}
+
+.sb-cv{display:block;margin-top:auto;padding:.6rem;background:var(--gold);
+  color:#fff;text-align:center;border-radius:3px;font-size:.78rem;
+  font-weight:600;letter-spacing:.04em;transition:opacity .15s}
+.sb-cv:hover{opacity:.88;text-decoration:none;color:#fff}
+
+/* ═══════════════════════════════════════
+   MAIN
+═══════════════════════════════════════ */
+#main{flex:1;min-width:0}
+
+/* ═══════════════════════════════════════
+   SECTIONS
+═══════════════════════════════════════ */
+.sec{padding:3.6rem 4vw 3rem;border-bottom:1px solid var(--border)}
+.sec:last-of-type{border-bottom:none}
+.sec-hd{display:flex;align-items:baseline;gap:.9rem;margin-bottom:2rem}
+.sec-hd h2{font-family:var(--serif);font-size:1.65rem;font-weight:600;
+  color:var(--ink);line-height:1.1}
+.sec-sub{font-size:.69rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.sec-rule{flex:1;height:1px;background:linear-gradient(to right,var(--border),transparent)}
+
+/* ═══════════════════════════════════════
+   ABOUT / HERO
+═══════════════════════════════════════ */
+#about{background:linear-gradient(155deg,#EFF1F8 0%,#F4F1EC 55%,#EBF0F5 100%);
+  padding:3.8rem 4vw 3.4rem;border-bottom:1px solid var(--border)}
+.h-eye{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold);font-weight:600;margin-bottom:.7rem}
+.h-name{font-family:var(--serif);font-size:clamp(2rem,3.8vw,3.2rem);
+  font-weight:700;line-height:1.05;color:var(--ink);margin-bottom:.3rem}
+.h-tag{font-family:var(--serif);font-size:1.05rem;font-style:italic;
+  color:var(--muted);margin-bottom:2rem}
+.h-bio{font-size:.92rem;color:var(--mid);max-width:700px;line-height:1.9;margin-bottom:2.2rem}
+.h-bio p+p{margin-top:.9rem}
+.h-bio strong{color:var(--ink);font-weight:600}
+
+.h-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:740px}
+.info-lbl{font-size:.67rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--muted);font-weight:600;margin-bottom:.7rem;
+  padding-bottom:.35rem;border-bottom:1px solid var(--border)}
+.sup-row{display:flex;gap:.5rem;margin-bottom:.55rem;align-items:flex-start}
+.sup-dot{width:5px;height:5px;border-radius:50%;background:var(--gold);
+  flex-shrink:0;margin-top:8px}
+.sup-name{font-size:.86rem;font-weight:600;color:var(--ink)}
+.sup-dept{font-size:.78rem;color:var(--muted)}
+.ri-cloud{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.6rem}
+.ri-tag{padding:.26rem .7rem;background:var(--white);border:1px solid var(--border);
+  border-radius:20px;font-size:.74rem;color:var(--mid);font-weight:500}
+
+/* ═══════════════════════════════════════
+   NEWS
+═══════════════════════════════════════ */
+.news-list{list-style:none}
+.news-item{display:grid;grid-template-columns:88px 1fr;gap:1rem;
+  padding:.9rem 0;border-bottom:1px solid var(--border)}
+.news-item:last-child{border-bottom:none}
+.n-date{font-size:.77rem;font-weight:600;color:var(--blue);white-space:nowrap;padding-top:1px}
+.n-text{font-size:.875rem;color:var(--mid);line-height:1.6}
+.n-text em{color:var(--ink);font-style:italic}
+.n-text strong{color:var(--ink)}
+
+/* ═══════════════════════════════════════
+   PUBLICATIONS
+═══════════════════════════════════════ */
+.pub-grp{display:flex;align-items:center;gap:.8rem;font-size:.67rem;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--gold);
+  font-weight:700;margin:1.6rem 0 .8rem}
+.pub-grp::after{content:'';flex:1;height:1px;background:var(--border)}
+.pub-list{list-style:none}
+.pub-item{display:grid;grid-template-columns:36px 1fr;gap:1.1rem;
+  padding:1.3rem 0;border-bottom:1px solid var(--border)}
+.pub-item:last-child{border-bottom:none}
+.pub-n{font-family:var(--serif);font-size:1.5rem;color:var(--border);
+  line-height:1;padding-top:3px;text-align:right}
+.pub-yr{display:inline-block;font-size:.66rem;font-weight:600;
+  letter-spacing:.07em;color:var(--blue);background:var(--blue-dim);
+  padding:.13rem .46rem;border-radius:2px;margin-bottom:.28rem}
+.pub-title{font-size:.9rem;font-weight:600;color:var(--ink);
+  line-height:1.45;margin-bottom:.28rem}
+.pub-authors{font-size:.8rem;color:var(--muted);line-height:1.5;margin-bottom:.2rem}
+.pub-authors strong{color:var(--mid)}
+.pub-venue{font-size:.8rem;color:var(--mid);font-style:italic}
+.pub-doi{color:var(--blue);font-style:normal;font-size:.75rem;
+  font-weight:500;margin-left:.4rem}
+.pub-award{display:inline-block;font-size:.67rem;font-weight:600;
+  color:var(--gold);background:var(--gold-dim);
+  padding:.1rem .44rem;border-radius:2px;margin-left:.4rem;font-style:normal}
+.pub-kws{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.45rem}
+.pub-kw{font-size:.68rem;color:var(--muted);background:var(--surface);
+  border:1px solid var(--border);padding:.1rem .42rem;border-radius:2px}
+.pub-footer{margin-top:1.2rem;font-size:.76rem;color:var(--muted)}
+
+/* ═══════════════════════════════════════
+   TIMELINE  (experience + education)
+═══════════════════════════════════════ */
+.tl{list-style:none;position:relative;padding-left:1.1rem}
+.tl::before{content:'';position:absolute;left:0;top:8px;bottom:8px;
+  width:1px;background:var(--border)}
+.tl-item{position:relative;padding:0 0 2.2rem 1.9rem}
+.tl-item:last-child{padding-bottom:0}
+.tl-dot{position:absolute;left:-5px;top:7px;width:10px;height:10px;
+  border-radius:50%;background:var(--blue);border:2px solid var(--bg)}
+.tl-item:first-child .tl-dot{background:var(--gold)}
+.tl-row{display:flex;justify-content:space-between;align-items:baseline;
+  flex-wrap:wrap;gap:.2rem;margin-bottom:.15rem}
+.tl-role{font-size:.97rem;font-weight:600;color:var(--ink)}
+.tl-period{font-size:.75rem;font-weight:600;color:var(--gold);
+  background:var(--gold-dim);padding:.12rem .44rem;border-radius:2px;flex-shrink:0}
+.tl-org{font-size:.86rem;color:var(--mid);margin-bottom:.45rem}
+.tl-note{font-size:.82rem;color:var(--muted);font-style:italic;margin-bottom:.5rem}
+.tl-bul{list-style:none}
+.tl-bul li{position:relative;padding:.22rem 0 .22rem 1.15rem;
+  font-size:.85rem;color:var(--mid);line-height:1.55}
+.tl-bul li::before{content:'—';position:absolute;left:0;
+  color:var(--border);font-size:.8rem;top:.28rem}
+.tl-bul li strong{color:var(--ink)}
+
+/* ═══════════════════════════════════════
+   AWARDS
+═══════════════════════════════════════ */
+.aw-list{list-style:none}
+.aw-item{display:flex;gap:1rem;align-items:flex-start;
+  padding:1rem 0;border-bottom:1px solid var(--border)}
+.aw-item:last-child{border-bottom:none}
+.aw-ico{font-size:1.1rem;flex-shrink:0;line-height:1.6}
+.aw-name{font-size:.9rem;font-weight:600;color:var(--ink);line-height:1.35}
+.aw-desc{font-size:.82rem;color:var(--muted);margin-top:.1rem}
+
+/* ═══════════════════════════════════════
+   SKILLS
+═══════════════════════════════════════ */
+.sk-row{display:grid;grid-template-columns:180px 1fr;padding:.8rem 0;
+  border-bottom:1px solid var(--border);gap:1rem;align-items:start}
+.sk-row:last-child{border-bottom:none}
+.sk-cat{font-size:.82rem;font-weight:600;color:var(--ink);padding-top:.3rem}
+.sk-tags{display:flex;flex-wrap:wrap;gap:.38rem}
+.sk-tag{padding:.26rem .66rem;background:var(--surface);
+  border:1px solid var(--border);border-radius:2px;
+  font-size:.76rem;color:var(--mid);font-weight:500}
+
+/* ═══════════════════════════════════════
+   TEACHING
+═══════════════════════════════════════ */
+.tc-table{width:100%;border-collapse:collapse;font-size:.85rem}
+.tc-table th{text-align:left;font-size:.67rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);font-weight:600;
+  padding:0 .8rem .6rem 0;border-bottom:2px solid var(--border)}
+.tc-table td{padding:.7rem .8rem .7rem 0;border-bottom:1px solid var(--border);
+  vertical-align:top;color:var(--mid)}
+.tc-table tr:last-child td{border-bottom:none}
+.tc-table td:first-child{color:var(--ink);font-weight:500}
+
+/* ═══════════════════════════════════════
+   PROJECTS
+═══════════════════════════════════════ */
+.proj-legend{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.4rem;
+  font-size:.73rem;color:var(--muted)}
+.proj-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.1rem}
+.proj-card{background:var(--white);border:1px solid var(--border);border-radius:3px;
+  padding:1.4rem;position:relative;overflow:hidden;
+  transition:box-shadow .2s,transform .2s}
+.proj-card:hover{box-shadow:0 6px 22px rgba(0,0,0,.08);transform:translateY(-2px)}
+.proj-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.proj-card[data-tag="PhD Research"]::before{background:var(--gold)}
+.proj-card[data-tag="Research"]::before    {background:var(--blue)}
+.proj-card[data-tag="Supervised"]::before  {background:var(--green)}
+.proj-card[data-tag="Personal"]::before    {background:var(--muted)}
+.proj-tag{font-size:.66rem;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:.44rem}
+.proj-card[data-tag="PhD Research"] .proj-tag{color:var(--gold)}
+.proj-card[data-tag="Research"] .proj-tag    {color:var(--blue)}
+.proj-card[data-tag="Supervised"] .proj-tag  {color:var(--green)}
+.proj-title{font-size:.9rem;font-weight:600;color:var(--ink);
+  line-height:1.35;margin-bottom:.44rem}
+.proj-desc{font-size:.8rem;color:var(--muted);line-height:1.6;margin-bottom:.65rem}
+.proj-techs{display:flex;flex-wrap:wrap;gap:.3rem}
+.proj-tech{font-size:.67rem;background:var(--surface);
+  border:1px solid var(--border);padding:.11rem .4rem;border-radius:2px;color:var(--mid)}
+.proj-status{position:absolute;top:.8rem;right:.9rem;font-size:.61rem;
+  font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+.proj-status.published{color:var(--green)}
+.proj-status.progress{color:var(--gold)}
+
+/* ═══════════════════════════════════════
+   SERVICE
+═══════════════════════════════════════ */
+.svc-grid{display:grid;grid-template-columns:115px 1fr}
+.svc-lbl{font-size:.69rem;font-weight:700;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--muted);
+  padding:1rem 1.3rem 1rem 0;border-bottom:1px solid var(--border)}
+.svc-ul{list-style:none;padding:1rem 0;border-bottom:1px solid var(--border)}
+.svc-ul li{font-size:.86rem;color:var(--mid);padding:.22rem 0}
+.svc-ul li::before{content:'— ';color:var(--border)}
+
+/* ═══════════════════════════════════════
+   CONTACT
+═══════════════════════════════════════ */
+.ct-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1.5rem}
+.ct-lbl{font-size:.67rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:.4rem}
+.ct-val{font-size:.88rem;color:var(--blue);font-weight:500;word-break:break-all}
+.ct-val a{color:inherit}
+
+/* ═══════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════ */
+footer{padding:1.4rem 4vw;text-align:center;font-size:.74rem;
+  color:var(--muted);background:var(--surface);border-top:1px solid var(--border)}
+
+/* ═══════════════════════════════════════
+   FADE-IN ON SCROLL
+═══════════════════════════════════════ */
+.fade{opacity:0;transform:translateY(16px);
+  transition:opacity .55s ease,transform .55s ease}
+.fade.in{opacity:1;transform:none}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════ */
+@media(max-width:820px){
+  .wrap{flex-direction:column}
+  #sb{width:100%;height:auto;position:relative;flex-direction:row;
+    flex-wrap:wrap;align-items:center;padding:.9rem 1.2rem;gap:.6rem}
+  .sb-photo{width:42px;height:42px;margin:0}
+  .sb-name{font-size:.88rem;text-align:left}
+  .sb-role,.sb-inst,.sb-div{display:none}
+  .sb-nav{display:flex;flex-wrap:wrap;gap:.2rem;margin:0}
+  .sb-nav li+li{margin:0}
+  .sb-links{margin:0}
+  .sb-cv{margin:0;padding:.4rem .8rem;font-size:.72rem}
+  .h-grid,.h-grid>div+div{grid-template-columns:1fr}
+  .sk-row{grid-template-columns:1fr}
+  .svc-grid{grid-template-columns:1fr}
+  .proj-grid{grid-template-columns:1fr}
+  .pub-item{grid-template-columns:28px 1fr}
+}
+@media(max-width:480px){
+  .sec{padding:2.5rem 5vw 2rem}
+  .sb-nav{display:none}
+}
+</style>
+</head>
+
+<!-- SVG ICON SPRITES -->
+<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-home"  viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4.1-2.8.1-4.2.1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2.1-2.4.2-3.6.2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9.1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></symbol>
+  <symbol id="i-news"  viewBox="0 0 512 512"><path d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H48c-26.5 0-48-21.5-48-48V120c0-13.3 10.7-24 24-24s24 10.7 24 24V432h72V96zm64 24v80h224V120H160zm0 104v48h224v-48H160zm0 80v48H352v-48H160zm192 80v48h32v-48h-32z"/></symbol>
+  <symbol id="i-pub"   viewBox="0 0 448 512"><path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></symbol>
+  <symbol id="i-exp"   viewBox="0 0 512 512"><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zm264 248H192V288c0-17.7-14.3-32-32-32s-32 14.3-32 32v16H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V304H384v16c0 17.7-14.3 32-32 32s-32-14.3-32-32V256z"/></symbol>
+  <symbol id="i-edu"   viewBox="0 0 640 512"><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-.6 28.3 14.1 32.3L256 448v0l256-44.8c14.7-4 20.6-19.3 14.1-32.3c-11.5-23.1-22.3-52.4-22.3-80.8V291.9c0-32.1-9.3-62.6-25.6-88.5l81.7-29.5c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32z"/></symbol>
+  <symbol id="i-award" viewBox="0 0 384 512"><path d="M173.8 5.5c11-7.3 25.4-7.3 36.4 0L228 17.2c6 3.9 13 5.8 20.1 5.4l21.3-1.3c13.2-.8 25.6 6.4 31.5 18.2l9.6 19.1c3.2 6.4 8.4 11.5 14.7 14.7L344.5 83c11.8 5.9 19 18.3 18.2 31.5l-1.3 21.3c-.4 7.1 1.5 14.2 5.4 20.1l11.8 17.8c7.3 11 7.3 25.4 0 36.4L366.8 228c-3.9 6-5.8 13-5.4 20.1l1.3 21.3c.8 13.2-6.4 25.6-18.2 31.5l-19.1 9.6c-6.4 3.2-11.5 8.4-14.7 14.7L301 344.5c-5.9 11.8-18.3 19-31.5 18.2l-21.3-1.3c-7.1-.4-14.2 1.5-20.1 5.4l-17.8 11.8c-11 7.3-25.4 7.3-36.4 0L156 366.8c-6-3.9-13-5.8-20.1-5.4l-21.3 1.3c-13.2.8-25.6-6.4-31.5-18.2l-9.6-19.1c-3.2-6.4-8.4-11.5-14.7-14.7L39.5 301c-11.8-5.9-19-18.3-18.2-31.5l1.3-21.3c.4-7.1-1.5-14.2-5.4-20.1L5.5 210.2c-7.3-11-7.3-25.4 0-36.4L17.2 156c3.9-6 5.8-13 5.4-20.1l-1.3-21.3c-.8-13.2 6.4-25.6 18.2-31.5l19.1-9.6C64.9 70.2 70 65 73.2 58.7L83 39.5c5.9-11.8 18.3-19 31.5-18.2l21.3 1.3c7.1.4 14.2-1.5 20.1-5.4L173.8 5.5zM272 192a80 80 0 1 0-160 0 80 80 0 1 0 160 0z"/></symbol>
+  <symbol id="i-skill" viewBox="0 0 512 512"><path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3L163.7 154.4V100.3c0-7.4-3.5-14.5-9.4-19L78.6 5z"/></symbol>
+  <symbol id="i-teach" viewBox="0 0 640 512"><path d="M160 64c0-35.3 28.7-64 64-64H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H336.8c-11.8-25.5-29.9-47.5-52.4-64H384V320c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32v32h64V64L224 64v49.1C205.2 102.2 183.3 96 160 96V64zm0 64a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM133.3 352h53.3C260.3 352 320 411.7 320 485.3c0 14.7-11.9 26.7-26.7 26.7H26.7C11.9 512 0 500.1 0 485.3C0 411.7 59.7 352 133.3 352z"/></symbol>
+  <symbol id="i-proj"  viewBox="0 0 512 512"><path d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zm64 64V416H240V160H64zm192 0V416H448V160H256zM64 96v32H240V96H64zm192 0v32H448V96H256z"/></symbol>
+  <symbol id="i-svc"   viewBox="0 0 640 512"><path d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3V245.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 11.2 66.1 29.9 91.7L94.3 416H96c17.7 0 32 14.3 32 32v64H32V448H64c-17.7 0-32-14.3-32-32V288c0-17.7 14.3-32 32-32H80.3c19.3-18.2 45.3-29.4 74-29.4h73.2zm152.5 0c28.7 0 54.7 11.2 74 29.4H448c17.7 0 32 14.3 32 32v128c0 17.7-14.3 32-32 32h32v64H384V480c0-17.7 14.3-32 32-32h1.7l-105.6-20.3C330.8 370.1 342 338.3 342 304c0-42.8-18.7-81.3-48.4-107.6h67.3zM456 88a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 160a80 80 0 1 1 0-160 80 80 0 1 1 0 160zm-80 160c0-44.2 35.8-80 80-80s80 35.8 80 80v32c0 17.7-14.3 32-32 32H272c-17.7 0-32-14.3-32-32V320z"/></symbol>
+  <symbol id="i-mail"  viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></symbol>
+  <symbol id="i-sch"   viewBox="0 0 512 512"><path d="M390.9 298.5c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.3 29.8c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77z"/></symbol>
+  <symbol id="i-gh"    viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 389.5 8 244.8 8z"/></symbol>
+  <symbol id="i-li"    viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></symbol>
+  <symbol id="i-rg"    viewBox="0 0 448 512"><path d="M0 32v448h448V32H0zm262.2 334.4c-6.6 3-34.4 7.3-54.6-12.1-5.9-5.7-10.1-12.1-13.8-20.5-4.2-9.5-7.3-21.1-11.1-39.5-4.7-22.6-9.7-25.5-24.3-28.6l-9.6-2v-9.7c23.6-3.1 47.4-7.9 53.2-46.7 1.2-7.7.6-15.1-1.6-21.7-4.8-14.3-18-22.2-32.1-25.6 0 0-5.4-69.5 50.6-69.5 19.9 0 41.2 9.6 41.2 38.6v147.3c0 19.3 3.3 22.2 14.7 24.2l7.4 1.3v9.5zm-56.8-180.9c-14.8-7.7-31.7-8.1-31.7-8.1v-27.5c5 .6 10.1 1.2 15 2.2 11.8 2.4 22.2 8.4 29.5 17.8 2.8 3.6 5.1 8.4 5.1 8.4-4.2 2.5-12 4.9-17.9 7.2z"/></symbol>
+  <symbol id="i-orcid" viewBox="0 0 512 512"><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z"/></symbol>
+</svg>
+
+<body>
+<div class="wrap">
+
+<!-- ═══ SIDEBAR ═══════════════════════════════════════════ -->
+<aside id="sb"></aside>
+
+<!-- ═══ MAIN ══════════════════════════════════════════════ -->
+<main id="main">
+  <section class="sec" id="about"></section>
+  <section class="sec fade" id="news"><div class="sec-hd"><h2>News</h2><span class="sec-sub" id="n-cnt"></span><div class="sec-rule"></div></div></section>
+  <section class="sec fade" id="publications"><div class="sec-hd"><h2>Publications</h2><span class="sec-sub" id="p-cnt"></span><div class="sec-rule"></div></div></section>
+  <section class="sec fade" id="experience"><div class="sec-hd"><h2>Experience</h2><div class="sec-rule"></div></div></section>
+  <section class="sec fade" id="education"><div class="sec-hd"><h2>Education</h2><div class="sec-rule"></div></div></section>
+  <section class="sec fade" id="awards"><div class="sec-hd"><h2>Awards &amp; Scholarships</h2><div class="sec-rule"></div></div></section>
+  <section class="sec fade" id="skills"><div class="sec-hd"><h2>Technical Skills</h2><div class="sec-rule"></div></div></section>
+  <section class="sec fade" id="teaching"><div class="sec-hd"><h2>Teaching</h2><span class="sec-sub">2017–2025 · 1,200+ students</span><div class="sec-rule"></div></div></section>
+  <section class="sec fade" id="projects"><div class="sec-hd"><h2>Projects</h2><div class="sec-rule"></div></div></section>
+  <section class="sec fade" id="service"><div class="sec-hd"><h2>Service &amp; Talks</h2><div class="sec-rule"></div></div></section>
+  <section class="sec fade" id="contact"><div class="sec-hd"><h2>Contact</h2><div class="sec-rule"></div></div></section>
+  <footer id="ft"></footer>
+</main>
+
+</div>
+
+<script>
+/* ── tiny helpers ── */
+const $  = id => document.getElementById(id);
+const mk = (tag, cls, html) => {
+  const e = document.createElement(tag);
+  if (cls)  e.className = cls;
+  if (html != null) e.innerHTML = html;
+  return e;
+};
+const add = (p, c) => p.appendChild(c);
+const ico = id => `<svg><use href="#i-${id}"/></svg>`;
+
+/* ══════════════════════════════════════════
+   PAGE TITLE & META — set from data
+══════════════════════════════════════════ */
+document.title = `${DATA.name} — ${DATA.degree}, QUT`;
+document.querySelector('meta[name="description"]').content =
+  `${DATA.name} – ${DATA.degree} in ${DATA.title} at ${DATA.affiliation}, ${DATA.location}.`;
+
+/* ══════════════════════════════════════════
+   SIDEBAR
+══════════════════════════════════════════ */
+function buildSidebar() {
+  const sb = $('sb');
+
+  // Photo
+  const pw = mk('div','sb-photo');
+  const img = document.createElement('img');
+  img.src = DATA.photo; img.alt = DATA.name;
+  img.onerror = () => pw.innerHTML = `<div class="sb-initials">${DATA.name[0]}</div>`;
+  add(pw, img); add(sb, pw);
+
+  add(sb, mk('div','sb-name', DATA.name));
+  add(sb, mk('div','sb-role', DATA.degree));
+  add(sb, mk('div','sb-inst', DATA.affiliation));
+  add(sb, mk('div','sb-div'));
+
+  // Navigation
+  const navItems = [
+    ['about','home','About'], ['news','news','News'],
+    ['publications','pub','Publications'], ['experience','exp','Experience'],
+    ['education','edu','Education'], ['awards','award','Awards'],
+    ['skills','skill','Skills'], ['teaching','teach','Teaching'],
+    ['projects','proj','Projects'], ['service','svc','Service'],
+    ['contact','mail','Contact'],
+  ];
+  const ul = mk('ul','sb-nav');
+  navItems.forEach(([id, icon, label]) => {
+    const li = mk('li');
+    const a  = mk('a', '', `${ico(icon)} ${label}`);
+    a.dataset.sec = id;
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      $(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    add(li, a); add(ul, li);
+  });
+  add(sb, ul);
+  add(sb, mk('div','sb-div'));
+
+  // Social links
+  const lmap = [
+    ['scholar','sch','Scholar'],['github','gh','GitHub'],
+    ['linkedin','li','LinkedIn'],['researchgate','rg','ResGate'],
+    ['orcid','orcid','ORCID'],
+  ];
+  const ld = mk('div','sb-links');
+  lmap.forEach(([key, icon, label]) => {
+    if (!DATA.links[key]) return;
+    const a = mk('a','sb-lnk', `${ico(icon)} ${label}`);
+    a.href = DATA.links[key]; a.target = '_blank'; a.rel = 'noopener';
+    add(ld, a);
+  });
+  add(sb, ld);
+
+  // CV button
+  const cv = mk('a','sb-cv','📄 Download CV');
+  cv.href = DATA.cv_url; cv.target = '_blank'; cv.rel = 'noopener';
+  add(sb, cv);
+}
+
+/* ══════════════════════════════════════════
+   ABOUT
+══════════════════════════════════════════ */
+function buildAbout() {
+  const paras = DATA.bio.trim().split('\n\n')
+    .map(p => `<p>${p.replace(/\s+/g,' ').trim()}</p>`).join('');
+  $('about').innerHTML = `
+    <p class="h-eye">${DATA.affiliation} · ${DATA.location}</p>
+    <h1 class="h-name">${DATA.name}</h1>
+    <p class="h-tag">${DATA.degree} — ${DATA.title}</p>
+    <div class="h-bio">${paras}</div>
+    <div class="h-grid">
+      <div>
+        <div class="info-lbl">Supervisors</div>
+        ${DATA.supervisors.map(s=>`
+          <div class="sup-row"><div class="sup-dot"></div>
+            <div><div class="sup-name">${s.name}</div>
+            <div class="sup-dept">${s.dept} · ${s.inst}</div></div>
+          </div>`).join('')}
+      </div>
+      <div>
+        <div class="info-lbl">Research Interests</div>
+        <div class="ri-cloud">
+          ${DATA.research_interests.map(r=>`<span class="ri-tag">${r}</span>`).join('')}
+        </div>
+      </div>
+    </div>`;
+}
+
+/* ══════════════════════════════════════════
+   NEWS
+══════════════════════════════════════════ */
+function buildNews() {
+  $('n-cnt').textContent = `${DATA.news.length} updates`;
+  const ul = mk('ul','news-list');
+  DATA.news.forEach(n =>
+    add(ul, mk('li','news-item',
+      `<span class="n-date">${n.date}</span><span class="n-text">${n.text}</span>`)));
+  add($('news'), ul);
+}
+
+/* ══════════════════════════════════════════
+   PUBLICATIONS
+══════════════════════════════════════════ */
+function buildPublications() {
+  const J = DATA.publications.filter(p=>p.type==='journal');
+  const C = DATA.publications.filter(p=>p.type==='conference');
+  $('p-cnt').textContent = `${J.length} journals · ${C.length} conferences`;
+  const sec = $('publications');
+
+  const buildGroup = (pubs, label, offset) => {
+    add(sec, mk('p','pub-grp', label));
+    const ul = mk('ul','pub-list');
+    pubs.forEach((p,i) => {
+      const doi   = p.doi ? `<a class="pub-doi" href="${p.doi}" target="_blank">↗ doi</a>` : '';
+      const award = p.award ? `<span class="pub-award">${p.award}</span>` : '';
+      const kws   = p.keywords?.length
+        ? `<div class="pub-kws">${p.keywords.map(k=>`<span class="pub-kw">${k}</span>`).join('')}</div>` : '';
+      add(ul, mk('li','pub-item',`
+        <div class="pub-n">${String(offset+i+1).padStart(2,'0')}</div>
+        <div>
+          <span class="pub-yr">${p.year}</span>
+          <div class="pub-title">${p.title}${award}</div>
+          <div class="pub-authors">${p.authors}</div>
+          <div class="pub-venue"><em>${p.venue}</em>${doi}</div>
+          ${kws}
+        </div>`));
+    });
+    add(sec, ul);
+  };
+
+  buildGroup(J, 'Journal Articles', 0);
+  buildGroup(C, 'Conference Papers', J.length);
+  add(sec, mk('p','pub-footer',
+    `* Corresponding Author &nbsp;·&nbsp;
+     <a href="${DATA.links.scholar}" target="_blank">Full list on Google Scholar</a>`));
+}
+
+/* ══════════════════════════════════════════
+   EXPERIENCE
+══════════════════════════════════════════ */
+function buildExperience() {
+  const ul = mk('ul','tl');
+  DATA.experience.forEach(e => {
+    add(ul, mk('li','tl-item',`
+      <div class="tl-dot"></div>
+      <div class="tl-row">
+        <span class="tl-role">${e.role}</span>
+        <span class="tl-period">${e.period}</span>
+      </div>
+      <div class="tl-org">${e.org} · ${e.loc}</div>
+      <ul class="tl-bul">${e.bullets.map(b=>`<li>${b}</li>`).join('')}</ul>`));
+  });
+  add($('experience'), ul);
+}
+
+/* ══════════════════════════════════════════
+   EDUCATION
+══════════════════════════════════════════ */
+function buildEducation() {
+  const ul = mk('ul','tl');
+  DATA.education.forEach(e => {
+    const field = e.field ? ` — ${e.field}` : '';
+    add(ul, mk('li','tl-item',`
+      <div class="tl-dot"></div>
+      <div class="tl-row">
+        <span class="tl-role">${e.degree}${field}</span>
+        <span class="tl-period">${e.period}</span>
+      </div>
+      <div class="tl-org">${e.inst} · ${e.loc}</div>
+      <div class="tl-note">${e.note}</div>`));
+  });
+  add($('education'), ul);
+}
+
+/* ══════════════════════════════════════════
+   AWARDS
+══════════════════════════════════════════ */
+function buildAwards() {
+  const ul = mk('ul','aw-list');
+  DATA.awards.forEach(a =>
+    add(ul, mk('li','aw-item',`
+      <div class="aw-ico">${a.icon}</div>
+      <div><div class="aw-name">${a.title}</div>
+      <div class="aw-desc">${a.desc}</div></div>`)));
+  add($('awards'), ul);
+}
+
+/* ══════════════════════════════════════════
+   SKILLS
+══════════════════════════════════════════ */
+function buildSkills() {
+  const wrap = mk('div');
+  DATA.skills.forEach(s => {
+    const row = mk('div','sk-row');
+    row.innerHTML = `<div class="sk-cat">${s.cat}</div>
+      <div class="sk-tags">${s.items.map(i=>`<span class="sk-tag">${i}</span>`).join('')}</div>`;
+    add(wrap, row);
+  });
+  add($('skills'), wrap);
+}
+
+/* ══════════════════════════════════════════
+   TEACHING
+══════════════════════════════════════════ */
+function buildTeaching() {
+  const sec = $('teaching');
+  add(sec, mk('p','',`<p style="font-size:.88rem;color:var(--mid);margin-bottom:1.6rem;max-width:640px">
+    Between 2017 and 2025 I taught <strong>20+ undergraduate courses</strong> to
+    <strong>1,200+ students</strong> and supervised <strong>25+ final-year thesis projects</strong>,
+    several of which resulted in peer-reviewed publications.</p>`));
+  const t = mk('table','tc-table');
+  t.innerHTML = `<thead><tr>
+    <th>Course</th><th>Institution</th><th>Period</th><th>Notes</th></tr></thead>
+    <tbody>${DATA.teaching.map(r=>`<tr>
+      <td>${r.course}</td><td>${r.inst}</td><td>${r.period}</td>
+      <td style="color:var(--muted)">${r.note}</td></tr>`).join('')}</tbody>`;
+  add(sec, t);
+}
+
+/* ══════════════════════════════════════════
+   PROJECTS
+══════════════════════════════════════════ */
+function buildProjects() {
+  const sec = $('projects');
+  add(sec, mk('div','proj-legend',`
+    <span><span style="color:var(--gold);font-weight:700">●</span> PhD Research</span>
+    <span><span style="color:var(--blue);font-weight:700">●</span> Research</span>
+    <span><span style="color:var(--green);font-weight:700">●</span> Supervised</span>
+    <span><span style="color:var(--muted);font-weight:700">●</span> Personal</span>`));
+  const grid = mk('div','proj-grid');
+  DATA.projects.forEach(p => {
+    const sc = p.status==='In Progress' ? 'progress' : p.status==='Published' ? 'published' : '';
+    const card = mk('div','proj-card');
+    card.dataset.tag = p.tag;
+    card.innerHTML = `
+      ${p.status ? `<div class="proj-status ${sc}">${p.status}</div>` : ''}
+      <div class="proj-tag">${p.tag}</div>
+      <div class="proj-title">${p.title}</div>
+      <div class="proj-desc">${p.desc}</div>
+      <div class="proj-techs">${(p.tech||[]).map(t=>`<span class="proj-tech">${t}</span>`).join('')}</div>`;
+    add(grid, card);
+  });
+  add(sec, grid);
+  add(sec, mk('p','',`<p style="font-size:.77rem;color:var(--muted);margin-top:1.3rem">
+    Code on <a href="${DATA.links.github}" target="_blank">GitHub</a></p>`));
+}
+
+/* ══════════════════════════════════════════
+   SERVICE
+══════════════════════════════════════════ */
+function buildService() {
+  const sec = $('service');
+  const g = mk('div','svc-grid');
+  add(g, mk('div','svc-lbl','Peer Review'));
+  const rv = mk('ul','svc-ul');
+  DATA.service.reviewing.forEach(r => add(rv, mk('li','',r)));
+  add(g, rv);
+  add(g, mk('div','svc-lbl','Invited Talks'));
+  const tv = mk('ul','svc-ul');
+  DATA.service.talks.forEach(t =>
+    add(tv, mk('li','',`<strong>${t.title}</strong> — ${t.venue}`)));
+  add(g, tv);
+  add(sec, g);
+}
+
+/* ══════════════════════════════════════════
+   CONTACT
+══════════════════════════════════════════ */
+function buildContact() {
+  const sec = $('contact');
+  const g = mk('div','ct-grid');
+  [
+    ['University Email', `<a href="mailto:${DATA.email_uni}">${DATA.email_uni}</a>`],
+    ['Personal Email',   `<a href="mailto:${DATA.email_personal}">${DATA.email_personal}</a>`],
+    ['Phone',            DATA.phone],
+    ['Location',         DATA.location],
+    ['Google Scholar',   `<a href="${DATA.links.scholar}" target="_blank">View Profile ↗</a>`],
+    ['ORCID',            `<a href="${DATA.links.orcid}" target="_blank">${DATA.links.orcid.split('/').pop()}</a>`],
+  ].forEach(([l,v]) =>
+    add(g, mk('div','',`<div class="ct-lbl">${l}</div><div class="ct-val">${v}</div>`)));
+  add(sec, g);
+}
+
+/* ══════════════════════════════════════════
+   FOOTER
+══════════════════════════════════════════ */
+function buildFooter() {
+  $('ft').innerHTML = `© 2026 <strong>${DATA.name}</strong> · ${DATA.affiliation} ·
+    Built with GitHub Pages · <a href="#about">Back to top ↑</a>`;
+}
+
+/* ══════════════════════════════════════════
+   ACTIVE NAV HIGHLIGHT
+══════════════════════════════════════════ */
+function initNav() {
+  const links = document.querySelectorAll('.sb-nav a[data-sec]');
+  const secs  = [...document.querySelectorAll('#main section[id]')];
+  const obs   = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting)
+        links.forEach(l => l.classList.toggle('on', l.dataset.sec === e.target.id));
+    });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+  secs.forEach(s => obs.observe(s));
+}
+
+/* ══════════════════════════════════════════
+   SCROLL FADE-IN
+══════════════════════════════════════════ */
+function initFade() {
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); }});
+  }, { rootMargin: '0px 0px -80px 0px' });
+  document.querySelectorAll('.fade').forEach(el => obs.observe(el));
+}
+
+/* ══════════════════════════════════════════
+   INIT — build everything
+══════════════════════════════════════════ */
+document.addEventListener('DOMContentLoaded', () => {
+  buildSidebar();
+  buildAbout();
+  buildNews();
+  buildPublications();
+  buildExperience();
+  buildEducation();
+  buildAwards();
+  buildSkills();
+  buildTeaching();
+  buildProjects();
+  buildService();
+  buildContact();
+  buildFooter();
+  initNav();
+  initFade();
+});
+</script>
+</body>
+</html>
