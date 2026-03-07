@@ -209,14 +209,14 @@ const DATA = {
       inst:   "Chittagong University of Engineering & Technology (CUET)",
       loc:    "Chattogram, Bangladesh",
       period: "2018 – 2023 (part-time)",
-      note:   "GPA 3.17 / 4.00 · Thesis: Trash Classification Using Deep Neural Networks · Supervisor: Dr. Kaushik Deb",
+      note:   "Thesis: Trash Classification Using Deep Neural Networks · Supervisor: Dr. Kaushik Deb",
     },
     {
       degree: "B.Sc. in Computer Science and Engineering",
       inst:   "Premier University (PU)",
       loc:    "Chattogram, Bangladesh",
       period: "2013 – 2018",
-      note:   "CGPA 3.71 / 4.00 · Merit Scholarship 2013–2015 · Perfect 4.0 GPA in 5th semester",
+      note:   "University Merit Scholarship 2013–2015",
     },
   ],
 
