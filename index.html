@@ -460,14 +460,14 @@ function buildAbout() {
     <p class="h-tag">${DATA.degree} — ${DATA.title}</p>
     <div class="h-bio">${paras}</div>
     <div class="h-grid">
-      <div>
-        <div class="info-lbl">PhD Supervisors</div>
-        ${DATA.supervisors.map(s=>`
-          <div class="sup-row"><div class="sup-dot"></div>
-            <div><div class="sup-name">${s.name}</div>
-            <div class="sup-dept">${s.dept} · ${s.inst}</div></div>
-          </div>`).join('')}
-      </div>
+      // <div>
+      //   <div class="info-lbl">PhD Supervisors</div>
+      //   ${DATA.supervisors.map(s=>`
+      //     <div class="sup-row"><div class="sup-dot"></div>
+      //       <div><div class="sup-name">${s.name}</div>
+      //       <div class="sup-dept">${s.dept} · ${s.inst}</div></div>
+      //     </div>`).join('')}
+      // </div>
       <div>
         <div class="info-lbl">Research Interests</div>
         <div class="ri-cloud">
