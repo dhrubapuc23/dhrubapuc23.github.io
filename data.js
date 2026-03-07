@@ -216,7 +216,7 @@ const DATA = {
       inst:   "Premier University (PU)",
       loc:    "Chattogram, Bangladesh",
       period: "2013 – 2018",
-      note:   "University Merit Scholarship 2013–2015",
+      note:   "Project: War71 - Real-time Multiplayer Quiz Game",
     },
   ],
 
