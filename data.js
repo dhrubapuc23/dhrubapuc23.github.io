@@ -60,9 +60,9 @@ const DATA = {
 
   /* ── SUPERVISORS ──────────────────────────────────────────────── */
   supervisors: [
-    { name: "Prof. Janet Davies",    dept: "School of Biomedical Sciences",               inst: "QUT" },
-    { name: "Prof. Michael Milford", dept: "School of Electrical Engineering & Robotics", inst: "QUT" },
-    { name: "Dr. Andelija Milic",    dept: "School of Biomedical Sciences",               inst: "QUT" },
+    // { name: "Prof. Janet Davies",    dept: "School of Biomedical Sciences",               inst: "QUT" },
+    // { name: "Prof. Michael Milford", dept: "School of Electrical Engineering & Robotics", inst: "QUT" },
+    // { name: "Dr. Andelija Milic",    dept: "School of Biomedical Sciences",               inst: "QUT" },
   ],
 
   /* ── RESEARCH INTERESTS ───────────────────────────────────────── */
